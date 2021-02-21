@@ -1,0 +1,102 @@
+#!/bin/bash
+
+#Descrition : intercview question answering
+#Author : Cabrel Tacs
+                                                ASSIGNMENT of  Week 16 
+I-Tell me about your self
+
+thank you to give me this opportunity to tell you my story ,my name is Cabrel Atchonke Temou ,I  first experience in IT was probably more  than  7years from now, I remember my first interest in IT started back home when I was helping my friend set-up and configure their computer the funny thing is I bassically set-up the language from English to French because a lot of us was born and come from the french part in my Country,help them with other small stuff like changed their hard drives from a small size to the size that their needed….So the I got a job in the computer shop my work was basically to help customer to get their computer at the level where they could use, which mean install some some application like microsoft office,music app and protected their computer by installing some antivirus and installing any other  product that they bought at the store. At that level I was dealed directly with the customer I really accumulate  a lot of  customer inter-actions and customer seervice if you can call it this way.
+After few years ago once I was in  USA, I decided to pursuit my carreer in the IT field;
+I started a job bassically they took with the little knoledge that i had back then, They decided to train me ,Iwas taking by DATA SERVICE GROUP as you can you can see on my Resume , I was there  as Linux System Administrator.
+So DSG is a consulting compagny who helps other small size company to mit-size company to use the technologie to deliver the product to their customer. By doing that we built their Data base on premice or build it in the cloud.
+So I gained a lot of experiences by building those server from scratch mostly their Linux server, I touched at system like ubuntu ,redhat, kali linux ,centos debian and probably more.
+I did a lot of server configuration, server management , server deployment in between set-up some customer application that need to run in AWS, I play arround also with some services in there like EC2,IAM,VPC probaly more.
+ALSO we decided to implement a devops pipeline in our company because some of ours clients there was theirs needs to build those pipelines for them to have their job more scalable.
+I was so lucky to participate to our internal training who was to train us to be familiar with  those devops pipelines...i was involve in the team who helps to set up those pipelines together.
+I did some work in the version control system (VCS) like Github that we use ,I also did some job in Jenkins Ansible ,K8, Docker and the whole deployment.
+I will say right now I have experience deploying application using the devops methodologie that pretty much I can say ,may be we can get it to some details questions for you to kind of calibrate where I am with my skills.
+
+2-What role, or what type of technology you want to work on in the future? 
+
+I would like to mostly get in myself more deeply in the cloud especially Aws and learn how other clous provider as googlecloud azure are woking because I thing cloud is where mostly of the company would like to migrate.
+
+3- What excites you at work ?
+This is the first time that I have to answer I heard this question...i will say the really first thing that make me so excited is the daily troubleshooting scenario at work,i like to challenge myself and bring solution to issues.
+
+4- What are you working on right now ? 
+I am working on a project basically one on of our customer would like us to set up an application for the Doctor or medical providors and when they take this patient medical record and load in the application,basically the App going to give the prediction of the future heath of their patient,we are using Artificial Intelligent to build this app.
+We are collecting some of the data from the customer depending how he will like the app to look like ,we suppose to turn those ideas if gave use some of them as (patient Diet,Patien Identification,patient sexe,patient sexe,patien race etc ..)and then try to transfert those EMR(Electronic Medical Record)who are basically datas collected to a big datas storage (we are using BIGQUERY for this project);
+my Job is bassically to move those data  from the data providor  to Bigquery.
+
+5- Describe a project you couldn't deliver on time and what you did. 
+
+This question remember me one of the project that I have done in the past in the part of  devops pipeline,basically I had code in .txt  format writen  by a developper and bigdata service where i should supposed to deploy it was taking in consideration just format like csv,xml and jason...for deploying that code the I was need to convert those format to a right format. ,i tryied to get back to cowoker  who was the one that wrote that code, I noticed that he was in went to vacation and I got back to tell my manager the issue I was faced he ask me to wait one more week and extend the time when I was supposed to delivered my project,that night I went online  I started some research on coding conversion and I found a 6 lines python code who could do the job and I try it while execute the script in my jenkins I realise that the code was successfully save on the right format in my bigdata 3 days after the time line,and my manager was so impress and happy of me.
+
+
+6- what is your devops pipeline like? 
+My devops pipeline is depending of what kinf of job that I need to accomplish for a customer, but we are mostly working with our VCS (github) who host the codes writen by developpers and CI (jenkins) do the job to deploy on Docker in form of image  some time also get ansible to be part of the pipeline also as I said depend of the kind of project we are dealing with.
+
+7- what is your best tool in the whole pipeline 
+my best tool in the pipeline is Jenkins because it so fun to work with all those hundreds plugins that its incoporate,Jenkins is for me like a Goat od Devops ,you ask it to do anything it will get the work done by using the right plugins who correspond to your task.
+
+
+8- what project have you done in devops? 
+
+I have done a lot of projet in devops between them Jenkins-ECR intergration,who was basically to take a code from github and install a plugins in Jenkins who help us to deploy that code in our ECRegistry as image.in that same job I remember to set-up a cronjob like poll scm who will help us to automate our job every time that the developpers make any change on the code and build automaticaly then push it,at the same time for the job to have a differents tags in my ECR registry I set up the job while building with the variable ${env.BUILD_NUMBER} .
+
+9- I have an app that needs to be migrated. How would I do that? 
+
+ I am not of what you are asking... you means using devops?,Can we skip that question and come back to it later please?
+
+
+10- Draw the architecture of an app 
+
+
+
+
+11- Tell a situation you had to troubleshoot 
+
+at work we were usre to have some servers who was running so slow ,our team team job was to do a whole server inventory to see if the server need to be decomossioned or need to be replaced we were use to run command after command to check if everything was working fine,it was so painful to run command after command and it’s was taking a lot of time I decided to write a script who going to put together all those command and execute it, my teamate was so happy one of them started to calling me the automate Man.lol
+
+12- Describe your day to day job.
+ 
+Day of day at work what I am doing is depending of what project I have in hands, it basically  a lot of meeting understanding of what people trying to accomplish and work on it.for my case it mosly create a Dockerfile that is going to reside the developper code.
+Educate people how to push their code in github,by organising some training session a lot of people dont know how to use github.
+
+
+13- What are you most proud of ?
+ 
+I am the most proud of the person that I became today,i comolety change the field to be in  IT field every day when I faced a troubleshooting issue it’s make me so exciting to bring the solution and in other field I don’t think that working dsy to day heve the same  kind of level of adrenaline.
+
+14- How much are you looking to make in your next role? 
+
+Right now  in Dat Service Group I am making a $135k I am looking mostly focus to learn some other technologie ,discover other environement and continu growing my skills,i guess I will make what my next company will judge to be right for them to give me depending of their policy.
+
+15- Describe a situation where the client doesn't want to go with what you are suggesting and how you handle it. 
+
+I never faced this kind of situation before, I guess if I am facing this kind of scenario I will show all the advantage and benefice demontrate all the reasin it should go with what I am suggesting him and showing some example of other people who hsve successful with the same technologie.
+
+16- Are you familiar with the Agile methodology? 
+
+NO Mr serge ,I heard of that of at some conference , I am not familiar with agile but I will be open to learn if needed.
+
+17- Are you familiar with the on call rotation? 
+
+Yes I do, every first week of the month I am the one  in my Team who should make himself available to make sure that everything is doing good ,also some time to work late night with a developper who lives in china at the day time in china.
+
+
+Question :please Mr serge how do you migrate app in your company?
+
+Thank to give that opportunity to talk to you hope you will get to be if you have more question,
+
+~
+~
+~
+~
+
+~
+~
+~
+~
+
+
